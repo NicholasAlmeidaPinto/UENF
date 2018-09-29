@@ -33,10 +33,7 @@ def pressao(anp, q, B, mi, k, h, rw, ct, phi, r, t, S):
         DeltaPressao = Pd/cpd
     return DeltaPressao
 ######################################################
-    
-
-
-    
+ 
 espaco = np.arange(1, 10001, 1)
 Pressao = np.empty(espaco.size)
 
@@ -52,17 +49,4 @@ for t in range(1000):
     plt.title("Tempo: " + str(t))
     nome = str(t)+".png"
     plt.savefig("figure/" + nome)
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+   
